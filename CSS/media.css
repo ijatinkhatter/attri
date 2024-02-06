@@ -1,0 +1,386 @@
+@media  screen and (max-width: 991px) {
+    .top-banner{
+        display: none;
+    }
+    nav{
+        position: fixed;
+    }
+    .nav-toggle{
+        display: block;
+        font-size: 30px;
+        color: black;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgb(220, 220, 220);
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding: 20px 0;
+        height: 100vh;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-links.active{
+        left: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .whatsapp-btn{
+        display: none;
+    }
+    .banner{
+        padding-top: 10%;
+    }
+    .banner-main-head h1{
+        font-size: 52px;
+    }
+    .banner-plane-element{
+        width: 13%;
+        top: 15%;
+    }
+    .banner-plane-element img{
+        width: 100%;
+    }
+    .banner-plane {
+        width: 35%;
+        left: 42%;
+        top: 19%;
+    }
+    .canada-flag{
+        bottom: 5.9%;
+    }
+    .aboutus-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .aboutus-left {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .ab-point {
+        justify-content: center;
+    }
+    .ab-3{
+        position: relative;
+        left: -20px;
+    }
+    .ab-2{
+        position: relative;
+        left: -4px;
+    }
+    .aboutus-right{
+        width: 90%;
+    }
+    .about-us-form{
+        width: 100%;
+    }
+    .destination-banner-container p{
+        padding: 0;
+        font-size: 36px;
+    }
+    .s6-right{
+        display: none;
+    }
+    .s6-left{
+        width: 100%;
+        align-items: center;
+        padding-block: 5%;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .fbox{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .map{
+        width: 100%;
+    }
+    .footer-address a i{
+        font-size: 14px;
+    }
+    .footer-address a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        width: 12%;
+    }
+    .banner{
+        padding-top: 15%;
+    }
+    .banner-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .banner-head{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .canada-flag{
+        bottom: -41.2%;
+        width: 100%;
+    }
+    .destination{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .destination-left {
+        width: 100%;
+    }
+    .destination-right p{
+        font-size: 35px;
+    }
+    .swiper{
+        width: 100%;
+    }
+    .dbc-img{
+        display: none;
+    }
+    .destination-banner-container{
+        flex-direction: column;
+    }
+    .dbc-head{
+        width: 100%;
+        text-align: center;
+    }
+    .our-service-head{
+        font-size: 30px;
+    }
+    .os-cards{
+        margin: 6%;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .os-card1{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 432px) {
+    .logo{
+        width: 22%;
+    }
+    .banner-main-head h1{
+        font-size: 40px;
+    }
+    .banner{
+        padding-top: 25%;
+    }
+    .banner-man{
+        width: 80%;
+    }
+    .canada-flag{
+        bottom: -43%;
+    }
+    .aboutus-container{
+        padding: 7% 0;
+        width: 90%;
+    }
+    .about-us-form p{
+        font-size: 20px;
+    }
+    .section-head p{
+        font-size: 22px;
+    }
+    .destination-right {
+        width: 100%;
+    }
+    .destination-right p{
+        font-size: 24px;
+    }
+    .destination-banner-container p{
+        font-size: 32px;
+    }
+    .os-cards{
+        margin: 10%;
+    }
+    .os-card1{
+        width: 100%;
+    }
+    .our-service-head {
+        font-size: 24px;
+    }
+    .oc-container-cards{
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+    .oc-card{
+        width: 100%;
+    }
+    .s6-left-head h2{
+        font-size: 28px;
+    }
+    .s6p-1{
+        width: 100%;
+    }
+    .s6-left {
+        gap: 30px;
+    }
+    .s6-left {
+        padding-block: 10%;
+    }
+    .our-courses{
+        margin-block: 10%;
+    }
+    .footer-address,
+    .footer-email,
+    .footer-number,
+    .footer-links{
+        text-align: center;
+    }
+    .footer-address a i,
+    .footer-email a i,
+    .footer-number a i,
+    .footer-links{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        padding: 5px;
+    }
+    .copyright p{
+        text-align: center;
+        font-size: 12px;
+
+    }
+    .section-3{
+        padding-inline: 4%;
+    }
+    .section-head p {
+        font-size: 16px;
+    }
+    .ab-para p {
+        font-size: 16px;
+    }
+    .about-us-form p {
+        font-size: 16px;
+    }
+    .destination-right p {
+        font-size: 18px;
+    }
+    .destination-banner-container p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .logo{
+        width: 27%;
+    }
+    .banner{
+        padding-top: 28%;
+    }
+    .banner-sub-head h6 {
+        font-size: 14px;
+    }
+    .banner-main-head h1 {
+        font-size: 36px;
+    }
+    .banner-head{
+        gap: 20px;
+    }
+    .banner-para p{
+        font-size: 14px;
+    }
+    .canada-flag{
+        bottom: -28.3%;
+    }
+    .about-us-form p {
+        font-size: 18px;
+    }
+    .section-head p{
+        font-size: 18px;
+    }
+    .destination-banner-container p{
+        font-size: 28px;
+    }
+    .our-service-head {
+        font-size: 20px;
+        border: 3px dashed var(--navy-blue);
+    }
+    .s6-left-head h2 {
+        font-size: 24px;
+    }
+    .logo-name p:nth-child(1) {
+        font-size: 23px;
+    }
+    .our-service-head {
+        font-size: 20px;
+    }
+    .dbc-btn{
+        font-size: 10PX;
+        height: 38PX;
+        font-weight: 400;
+    }
+    .destination-right p {
+        font-size: 16px;
+    }
+}
+
+@media  screen and (max-width: 320px){
+    .canada-flag{
+        bottom: 31.7%;
+    }
+    .ab-main-head {
+        font-size: 14px;
+    }
+    .ab-point {
+        font-size: 14px;
+    }
+    .ab-head h3{
+        font-size: 16px;
+    }
+    .ab-para p{
+        font-size: 20px;
+    }
+    .about-us-form p {
+        font-size: 15px;
+    }
+    .about-us-form p {
+        font-size: 16px;
+    }
+    .section-head p{
+        font-size: 16px;
+    }
+    .destination-banner-container p{
+        font-size: 22px;
+    }
+    .dbc-btn a{
+        font-size: 12px;
+    }
+    .destination-banner-container{
+        height: 225px;
+        
+    }
+    .our-service-head {
+        font-size: 16px;
+        border: 2px dashed var(--navy-blue);
+    }
+    .s6-left-head h2 {
+        font-size: 18px;
+    }
+    .s6p-1 {
+        font-size: 14px;
+    }
+    .footer-logo img {
+        width: 75px;
+    }
+    .logo-name p:nth-child(1) {
+        font-size: 23px;
+    }
+    .dbc-btn{
+        font-size: 10PX;
+    }
+    .destination-right p {
+        font-size: 16px;
+    }
+}
